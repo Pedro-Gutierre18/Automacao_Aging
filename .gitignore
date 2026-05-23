@@ -1,0 +1,22 @@
+# Ambiente virtual
+.venv/
+__pycache__/
+*.pyc
+
+# Variáveis de ambiente (contém URLs e caminhos corporativos)
+.env
+
+# Dados gerados pelo pipeline (podem conter dados sensíveis de faturamento)
+data/modelo/export.xlsx
+data/modelo/Modelo Aging.xlsx
+data/resultado/
+data/logs/
+
+# Estado temporário entre módulos
+data_bi.json
+
+# VS Code
+.vscode/
+
+# Playwright
+playwright-edge-profile/
